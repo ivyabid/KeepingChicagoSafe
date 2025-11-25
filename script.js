@@ -9,14 +9,14 @@ async function loadContent(url) {
     contentArea.innerHTML = '<p style="text-align: center; padding: 20px;">Loading...</p>';
 
     const fullPath = REPO_BASE_PATH + url;
-    
+
     try {
         // 1. Fetch the content
-        const response = await fetch(url);
+        const response = await fetch(fullPath);
         
         // 2. Check for successful HTTP status (e.g., not 404)
         if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status} for ${url}`);
+            throw new Error(`HTTP error! Status: ${response.status} for ${fullPath}`);
         }
         
         // 3. Get the raw text (the content fragment)
