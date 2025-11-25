@@ -8,6 +8,8 @@ async function loadContent(url) {
     // Clear previous content and show loading message
     contentArea.innerHTML = '<p style="text-align: center; padding: 20px;">Loading...</p>';
 
+    const fullPath = REPO_BASE_PATH + url;
+    
     try {
         // 1. Fetch the content
         const response = await fetch(url);
