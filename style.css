@@ -14,7 +14,16 @@
 
 .salute-header-cell {
     width: 60%;
-    text-align: left;
+}
+
+.salute h1{
+    text-align: center;
+    color: #8b0000;
+}
+
+.salute ul{
+    text-align:right;
+    color: white;
 }
 
 .header-image {
