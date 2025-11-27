@@ -116,9 +116,10 @@ body {
 
 .kcs-button-summary {
     font-size: 0.8em;
-    color:#8b0000;
+    color:black;
     padding: 5px 10px;
     font-style: italic;
+    font-weight:bold;
     vertical-align: top;
     word-wrap: break-word;
     text-align: center;
