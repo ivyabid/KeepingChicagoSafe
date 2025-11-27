@@ -2,7 +2,7 @@
 .running-header {
     width: 100%;
     table-layout: fixed;
-    background-color: dimgray;
+    background-color: #696969;
 }
 
 .img-header-cell {
@@ -39,7 +39,7 @@
     border-collapse: separate;
     border-spacing: 10px 0;
     table-layout: fixed;
-    background-color: dimgray;
+    background-color: #696969;
 }
 
 .kcs-cell {
@@ -84,20 +84,20 @@
 
 /* --- Specific Button Colors --- */
 #button-kyr {
-    background-color:darkred;
+    background-color:#8b0000;
 }
 #button-detention {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 #button-safety {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 #button-offline {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 
 #button-action {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 
 /* --- kyr page ---*/
