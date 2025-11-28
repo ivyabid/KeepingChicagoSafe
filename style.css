@@ -216,7 +216,7 @@ body {
     color: #8b0000;
 }
 
-#content-area a:hover {
+a:hover {
     background-color: black;
     font-weight: bold;
     color: white;
