@@ -109,6 +109,13 @@ body {
     box-shadow: 0 4px 6px black;
 }
 
+.nav-button:hover {
+    vertical-align: top;
+    padding: 0;
+    border: 80px solid white;
+    box-shadow: 0 0 0 black;
+}
+
 .button-text {
     font-size: 1.1em;
     line-height: 1.2;
