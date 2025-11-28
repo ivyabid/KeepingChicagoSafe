@@ -1,5 +1,5 @@
 // using this to ensure proper fetching from github
-const REPO_BASE_PATH = '/MyWebsite/';
+const REPO_BASE_PATH = 'https://librarymaneric.github.io/KeepingChicagoSafe/';
 
 async function loadContent(url) {
     const contentArea = document.getElementById('content-area');
